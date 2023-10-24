@@ -1,0 +1,68 @@
+body {
+    color: orchid;
+    background-color: black;
+}
+
+p {
+    color: salmon;
+}
+
+#first-p {
+    font-style: italic;
+    color: red;
+}
+.p-tag {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 200px;
+}
+.frankenstein {
+    margin: 0 auto;
+}
+
+.movie-quote {
+    border: 2px dashed greenyellow;
+}
+
+p.frankenstein {
+    font-family: 'Lucida Sans';
+    font-size: 24px;
+    color: purple;
+}
+
+.p-tag.frankenstein {
+    text-transform: uppercase;
+}
+.active p {
+    background-color: white;
+    color: black;
+}
+
+.active > p {
+    background-color: darkcyan;
+    color: hotpink;
+}
+
+p,
+h1,
+h2,
+h4,
+.quote p {
+    font-family: Impact, serif;
+}
+
+a,
+a:active,
+a:visited {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
